@@ -1,17 +1,16 @@
-let score=33
+let score=null
+console.log(score);
 
-// typeof operator is used to know what type of value variable is storing 
+// typeof used to know what type of value the variable is storing
 
 console.log(typeof score);
-console.log(typeof(score));
-let name="Radha Rani"
+let convert =String(score)
+console.log(typeof convert);
 
-//conversion of datatype
+let value="108abc"
+console.log(typeof value);
 
-console.log(typeof name);
-let valueNumber=String(score);
-console.log(typeof valueNumber);
-let name2=Number(name);
-console.log(typeof name2);
-
-
+let typeNumber=Number(value)
+console.log(typeof typeNumber);
+console.log(typeNumber);//note a number(NAN) 
+console.log(typeof null);
