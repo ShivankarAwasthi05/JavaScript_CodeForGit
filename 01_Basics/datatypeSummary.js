@@ -40,5 +40,27 @@ console.log(id);
 console.log(idd);
 console.log(id===idd);
 
-const bigNumber=12345678998777667687687687677878678n;
+const bigNumber=12345678998777687687677878678n;
+
+const heros=["Radha Rani","Shriji","ShriHariVansh"];
+let myobject = {
+    name:"shivankar",
+    age:20,
+    phoneNumber:9555841688,
+}
+
+const myfunction = function(){
+    console.log("Shri radhika rani");
+}
+
+console.log(typeof bigNumber);  //bigint
+console.log(typeof myfunction); //function object
+console.log(typeof heros);      //object
+console.log(typeof myobject);   //object
+console.log(typeof null);       //object
+console.log(typeof id);         //symbol
+console.log(typeof idd);        //symbol
+console.log(typeof user);       //undefined
+console.log(typeof outside);    //object 
+console.log(typeof isloggedIn); //boolean
 
