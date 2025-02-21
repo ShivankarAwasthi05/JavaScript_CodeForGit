@@ -67,4 +67,8 @@ console.log(typeof isloggedIn); //boolean
 /* Difference between const,var and let keyword in javascript:
 1.var:var keyword in javascript declare variable in a code and can be accessed globally. Scope of variable declare with var keyword can be accessed outside the block as well.
 
-2.let:let keyword in javascript declare variable in a code and can not be accessed globally . Scope of the variable declares with let keyword can limited to the 
+2.let:let keyword in javascript declare variable in a code and can not be accessed globally . Scope of the variable declares with let keyword can limited to the function or block where it is declared.
+
+3.const:const keyword in javascript declare that type of variable whose value we don't want to change during the program execution.Scope of the variable declare with const keyword is limited to the function or block where it is declared.
+
+*/
