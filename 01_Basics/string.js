@@ -24,3 +24,29 @@ console.log(godessName[0]);
 console.log(godessName.__proto__);
 console.log(godessName.length);
 console.log(godessName.toUpperCase());
+console.log(godessName.charAt(2));
+console.log(godessName.indexOf('d'));
+
+//substring method 
+const newName=godessName.substring(0,5);
+console.log(newName);
+
+//slice method
+const newName2=godessName.slice(-9,9);
+console.log(newName2);
+
+//trim method 
+const godessName2="  Radhika    "
+console.log(godessName2.trim());
+
+//replace method
+const godessName3="https://RadhikaRani.com//%20@shriShyamaShyam"
+console.log(godessName3.replace("%20","-"));
+
+//includes method
+console.log(godessName3.includes("RadhikaRani"));
+console.log(godessName3.includes("shriShyamaShyam"));
+
+//split method
+const godessName4="Radhika-Rani-ShriShyamaShyam"
+console.log(godessName4.split("-"));
