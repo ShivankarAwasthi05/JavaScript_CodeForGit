@@ -3,7 +3,7 @@
 2)Non Primitive
 */
 
-/* primitive: (CallByValue)These type of datatype when we call then we have the copy of the original data all the changes we make are applied to copy of the data */
+/* Primitive: (CallByValue)These type of datatype when we call then we have the copy of the original data all the changes we make are applied to copy of the data */
 
 /* Ther are 7 primitive datatypes
 1.String
@@ -16,7 +16,7 @@
 */
 
 
-/* Non-Primitive(Reference Type):These type of datatypes when we call the we have the direct reference of the original datatype and all the changes we done with the data are directly applied to the original data */
+/* Non-Primitive(Reference Type):These type of datatypes when we call the we have the direct reference of the original data and all the changes we have done with the data are directly applied to the original data */
 
 /* Types of non-primitive datatype are:
 1.array
@@ -24,7 +24,7 @@
 3.functions
 */
 
-/* javascript is dynamically typed language because we don't have to provide which type of value stored by the variable javascript understood on its own */
+/* Javascript is dynamically typed language because we don't have to provide which type of value stored by the variable javascript understood on its own */
 
 // const score=2100;
 // const score=21.1;
@@ -64,3 +64,7 @@ console.log(typeof user);       //undefined
 console.log(typeof outside);    //object 
 console.log(typeof isloggedIn); //boolean
 
+/* Difference between const,var and let keyword in javascript:
+1.var:var keyword in javascript declare variable in a code and can be accessed globally. Scope of variable declare with var keyword can be accessed outside the block as well.
+
+2.let:let keyword in javascript declare variable in a code and can not be accessed globally . Scope of the variable declares with let keyword can limited to the 
