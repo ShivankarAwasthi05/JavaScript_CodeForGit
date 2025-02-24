@@ -1,4 +1,4 @@
-const array=new Array(1,2,3,4,5);
+/*const array=new Array(1,2,3,4,5);
 array.push(6);    //To Insert new Value into the array
 console.log(array);
 
@@ -19,3 +19,32 @@ console.log(array);
 console.log(array2);
 console.log(typeof array);
 console.log(typeof array2);
+
+
+//slice and splice methods
+*/
+
+/*const array=new Array(1,2,3,4,5,);
+console.log("A ",array);
+
+console.log("B",array.slice(1,3));
+console.log(array);
+console.log("C",array.splice(1,3));
+console.log(array);
+*/
+
+/* slice : This method in javascript return the sliced arrays without considering the boundary value of the array.
+Example:array(1,2,3,4,5)
+Output:[2,3]
+But the original value is remains the same.
+
+splice:This Method in javascript return the sliced arrays with considering the bounday value of the array.
+Example:array(1,2,3,4,5)
+Output:[2,3,4].
+But the original array removed the sliced elements from itselfs
+original arrays:[1,5].
+*/
+
+
+
+
