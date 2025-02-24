@@ -15,7 +15,25 @@ console.log(rupees.toLocaleString('en-IN'));
 /***************************************************Maths**************************************************************** */
 
 console.log(Math);
-console.log(Math.round(-4));
+console.log(Math.round(-4.8));
 console.log(Math.ceil(4.1));
 console.log(Math.floor(4.9));
 console.log(Math.sqrt(36));
+console.log(Math.abs(-6));
+console.log(Math.min(2,3,4,5,6));
+console.log(Math.max(2,3,4,5,6,));
+
+//Math.random()
+//console.log(Math.random());
+//console.log(Math.random());
+//console.log(Math.random());
+//console.log(Math.random());
+//console.log(Math.random());
+
+//The default value of Math.random() is always between 0 to 1;
+console.log(Math.random());
+console.log((Math.random()*10)+1);
+console.log(Math.random());
+
+
+
