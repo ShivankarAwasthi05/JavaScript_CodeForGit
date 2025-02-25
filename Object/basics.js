@@ -2,6 +2,7 @@ console.clear();
 // Object in JavaScripts
 // Object literals
 //Object.create
+
 const mySyn = Symbol("Key1");
 const mySyn2 = Symbol("Key1");
 
