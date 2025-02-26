@@ -92,3 +92,49 @@ console.log(`.......${}`);
 }
 
 */
+
+//Concatination of two object in javascript
+
+const obj1={1:"A",2:"B"};
+const obj2={3:"C",4:"D"};
+const obj3={obj1,obj2};
+console.log(obj3);
+// Object.assign(v1,v2..vn) method are used in javascript for concatination of two object .
+
+const obj4=Object.assign(obj1,obj2);
+console.log(obj4);
+
+//Better syntax for concatination of n object in  javascript 
+
+const obj5=Object.assign({},obj1,obj2);
+console.log(obj5);
+
+// Syntax for Better concatination on object in javascript 
+/*
+Object.assign(target{},source1,source2,source3,..sourcen);
+In the above mentioned technique the concatination of all the source data will be concat into the target {} .
+*/
+
+/*
+By default if we do not pass a target {} empty array in the concatination process then the concatination result of all the sources are concatinate into the source1 in the syntx
+*/
+
+const obj6=Object.assign(obj1,obj2); 
+console.log(obj6===obj1); // As we early mentioned the value concatinate into obj1 .
+console.log(obj6);        // Data available in the obj6 and obj1 is same.
+console.log(obj1);
+
+// Spread method for concatination of n object in javascript 
+const object1={1:"R",2:"A",3:"D",4:"H",5:"A"};
+const object2={1:"R",2:"A",3:"N",4:"I"};
+const object3={...object1,...object2};
+console.log(object3);
+console.log(object3===object1);
+
+/*Best Technique for concatination of n object in javascript in spread
+Syntax:
+const obj3={...obj1,...obj2}
+*/
+
+
+
