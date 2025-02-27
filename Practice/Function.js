@@ -30,3 +30,17 @@ function UserLogin(name="Radhika"){
 console.log(UserLogin("Shriji"));
 console.log(UserLogin(""));
 console.log(UserLogin());
+
+
+
+function handleUser(First_name,Last_name,...amount){
+        console.log(First_name);
+        console.log(Last_name);
+        console.log(amount);
+        console.log("Happy Customer");
+        return;
+}
+const result=handleUser("Shivankar","Awasthi",1000,10000,100000);
+console.log(result);
+
+
