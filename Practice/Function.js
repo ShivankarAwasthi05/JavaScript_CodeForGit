@@ -43,4 +43,14 @@ function handleUser(First_name,Last_name,...amount){
 const result=handleUser("Shivankar","Awasthi",1000,10000,100000);
 console.log(result);
 
+const fun8=(name8,name9) => {
+    console.log(`The name are ${name8} and ${name9}`);
+}
+fun8("Shriji","ShyamaShyam");
+
+const fun9=(n,m) => n+m;
+console.log(fun9("Shriji","ShyamaShyam"));
+
+
+
 
