@@ -50,3 +50,26 @@ object1.myfun=function(){
     console.log(`The Ultimate name of goddes is ${this.name4.name5.name6.name7.name8}`);
 }
 object1.myfun();
+
+
+const object10=Object();
+object10.name="Shriji";
+object10.name2="ShriShyamaShyam";
+object10.name3="ShriRadhika";
+
+console.log(`The name are ${object10.name} ,${object10.name2},${object10.name3}`);
+
+const numm ={
+    num1:1,
+    num2:2,
+    num3:3
+}
+
+const nummm={
+    num4:4,
+    num5:5,
+    num6:6
+}
+
+const nummmm={...numm,...nummm};
+console.log(nummmm);
