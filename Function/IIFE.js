@@ -40,6 +40,23 @@ DataBase();
 
 ((name1,name2) => {
     console.log(`ShriRadhaVallabhShriHariVansh ${name1} and ${name2}`);
-}) ("Shriji","ShyamaShyam")
+}) ("Shriji","ShyamaShyam");
+
+
+// Named IIFE function in javascript 
+
+(function NamedIIFE(){
+    console.log("Named IIFE Function");
+}) ();
+
+// Un Named IIFE function in javascript
+(
+    (name) =>{
+        console.log("unNamed IIFE Function")
+    }
+) ();
+
+
+
 
 
