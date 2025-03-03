@@ -45,4 +45,8 @@ console.log(returnSecondvalue([200,400,600]));
 function_Name(mynewArray));
 */
 
+const Amount =function(...value){
+    console.log(`The Total Amount is ${value}`);
+}
+Amount(100,1100,1110,100010);
 

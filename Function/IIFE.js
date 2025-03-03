@@ -18,7 +18,7 @@ DataBase();
 })();
 
 
-/* why we Use IIFE :Because sometimes we the changes or pollution in the global space can also impacts for database connnection function or any other function which we want to immediatly execute then we use IIFE Technnique to separte the specific function from the global space changes or pollution
+/* why we Use IIFE :Because sometimes  the changes or pollution in the global space can also impacts for database connnection function or any other function which we want to immediatly execute then we use IIFE Technnique to separte the specific function from the global space changes or pollution.
 */
 
 
@@ -37,3 +37,9 @@ DataBase();
         console.log(`The Name is ${name}`);
     }
 )("Shrji");
+
+((name1,name2) => {
+    console.log(`ShriRadhaVallabhShriHariVansh ${name1} and ${name2}`);
+}) ("Shriji","ShyamaShyam")
+
+
