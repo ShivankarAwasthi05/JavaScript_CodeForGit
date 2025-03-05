@@ -12,8 +12,8 @@ let isLoggedIn=false
 //Primitive Datatypes as mentioned below
 
 //number =>2 to power 53
-//bigint 
-//string =>""
+//BigInt 
+//String =>""
 //boolean => true/false
 //null => standalone value
 //undefined => value does not known

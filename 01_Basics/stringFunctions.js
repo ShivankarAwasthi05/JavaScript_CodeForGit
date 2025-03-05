@@ -3,7 +3,7 @@ console.log(str);
 console.log(str.toUpperCase());
 const str1=new String("Kishoriji");
 const str2=new String("Shyamaji");
-console.log(`The Divine name of godess are ${str} and ${str2} and ${str1}`);
+console.log(`The Divine name of godess are ${str} and ${str2} and ${str1}`);  //String interpolation
 console.log(str.toLowerCase());
 console.log(str.concat(str1));
 const name="ShriShyamaShyam-ShriRadhaRani-ShriRadhika";
