@@ -78,6 +78,11 @@ if(userRegisterThroughGoogle || userRegisterThroughEmail || userRegisterThroughG
     console.log("Allow user to view the courses");
 }
 
+// Nullish coalescing operation(??) null undefined
+
+let val=5 ?? 10;
+console.log(val);
+
 
 
 
