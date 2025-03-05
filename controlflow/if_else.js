@@ -83,7 +83,17 @@ if(userRegisterThroughGoogle || userRegisterThroughEmail || userRegisterThroughG
 let val=5 ?? 10;
 console.log(val);
 
+let val2= null ?? 20;
+console.log(val2);
 
+let val3=undefined ?? 30;
+console.log(val3);
 
+let val4= null ?? 10 ?? 20;
+console.log(val4);
 
-    
+//Ternary Operator in Javascript
+
+// Condition ? True : False
+const price =100;
+price >=70 ?console.log("Primium Stuff"):console.log("Affordable Stuff");
