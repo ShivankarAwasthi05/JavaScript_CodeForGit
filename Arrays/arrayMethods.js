@@ -46,5 +46,3 @@ original arrays:[1,5].
 */
 
 
-
-
