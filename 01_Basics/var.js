@@ -23,3 +23,10 @@ console.log(accountCity);
 //print with console.table([a1,a2,a3]) method
  console.table([account_Id,accountEmail,accountPassword,accountCity,account_State]);
 
+const name1="RadhaRani";
+const name2="Shriji";
+const name3="ShriShyamaShyam";
+const name4="ShriRadhika";
+const name5="ShriSatya";
+
+console.table([name1,name2,name3,name4,name5]);
